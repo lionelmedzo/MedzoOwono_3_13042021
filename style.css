@@ -1,9 +1,39 @@
 body{
-margin:0%;
+margin:0;
 font-family: Roboto, sans-serif;
 }
-.header__logo{
+
+.logo{
     font-family: Shrikhand, sans-serif;
     text-align: center;
     margin:0;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    
 }
+.bas-de-page{
+    background-color: black;
+    color:white;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+li{
+    list-style-type: none;
+} 
+.localisation{
+    display:flex;
+    justify-content: center;
+    font-size: 1.3em;
+    background-color: #eaeaea;
+    padding: 1.2em 1em;
+}
+.localisation-icon{
+    margin-right: .5em;
+}
+.localisation-text{
+    font-weight: bold;
+    
+}
+
+    
