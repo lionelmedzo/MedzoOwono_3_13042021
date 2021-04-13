@@ -1,3 +1,4 @@
+
 body{
 margin:0;
 font-family: Roboto, sans-serif;
@@ -58,12 +59,10 @@ li{
 .btn{
     padding: 1em 1em;
     border-radius: 100px;
+    color:blue;
     
 }
-.reservation-bouton{
-    font-weight: bold;
-    color: blue;
-}
+
 /*__________________________________________________*/
 /*_______________________ fonctionnement_______________*/
 .fonctionnement{
@@ -87,4 +86,97 @@ li{
     margin-left:.5 ;
     border-radius: 1.5em;
     background-color: #f6f6f6;
+    
+}
+/*__________________________________________________*/
+/*_______________________ restaurant_______________*/
+.restaurants{
+    background-color: #f6f6f6;
+    padding: 1em;
+}
+.restaurants-cartes{
+    display:grid;
+    grid-template-columns:1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr ;
+    column-gap: 1.5em;
+    row-gap: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.carte-1{
+    grid-column-start: 1;
+	grid-row-start: 1;
+    background-color: white;
+    border-radius: 1em;
+}
+.carte-2{
+    grid-column-start: 1;
+	grid-row-start: 2;
+    background-color: white;
+    border-radius: 1em;
+}
+.carte-3{
+    grid-column-start: 1;
+	grid-row-start: 3;
+    background-color: white;
+    border-radius: 1em;
+}
+.carte-4{
+    grid-column-start: 1;
+	grid-row-start: 4;
+    background-color: white;
+    border-radius: 1em;
+}
+.carte-image{
+    width: 100%;
+    max-height:200px ;
+    border-radius: 1em 1em 0 0;
+    object-fit: cover;
+}
+.carte-popup{
+    background-color: #99e2d0;
+    color:#008766;
+    padding: .5em;
+    position: absolute;
+    top:51em;
+    right: 2em;
+    
+}
+.carte-popup2{
+    background-color: #99e2d0;
+    color:#008766;
+    padding: .5em;
+    position: absolute;
+    top:71em;
+    right: 2em;
+    
+}
+.carte-popup3{
+    background-color: #99e2d0;
+    color:#008766;
+    padding: .5em;
+    position: absolute;
+    top:91em;
+    right: 2em;
+    
+}
+.carte-popup4{
+    background-color: #99e2d0;
+    color:#008766;
+    padding: .5em;
+    position: absolute;
+    top:110em;
+    right: 2em;
+    
+}
+.carte-descritpion{
+    
+    padding-bottom: .5em;
+    padding-left:1em;
+}
+.fa-heart{
+    margin-left: 15em;
+    size:30px ;
 }
