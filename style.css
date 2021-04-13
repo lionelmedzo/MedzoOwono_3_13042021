@@ -2,17 +2,20 @@ body{
 margin:0;
 font-family: Roboto, sans-serif;
 }
-
+header{
+    box-shadow: 0 0 0 1em #cfcfcf;
+    
+}
 .logo{
     font-family: Shrikhand, sans-serif;
     text-align: center;
     margin:0;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
     padding-top: 1em;
     
 }
 .bas-de-page{
-    background-color: black;
+    background-color: #353535;
     color:white;
     padding-bottom: 1em;
     padding-top: 1em;
@@ -31,9 +34,57 @@ li{
 .localisation-icon{
     margin-right: .5em;
 }
+.footer-icon{
+    color: white;
+}
 .localisation-text{
     font-weight: bold;
     
 }
 
+/*__________________________________________________*/
+/*_______________________ reservation_______________*/
+.reservation{
+    text-align: center;
+    padding: 2em;
+    background-color: #f6f6f6;
+}
+.reservation-titre{
+    margin:0;
+}
+.reservation-desc{
+    margin:1em 0;
+}
+.btn{
+    padding: 1em 1em;
+    border-radius: 100px;
     
+}
+.reservation-bouton{
+    font-weight: bold;
+    color: blue;
+}
+/*__________________________________________________*/
+/*_______________________ fonctionnement_______________*/
+.fonctionnement{
+    padding: 1em 2em;
+}
+
+.fonc-list{
+    padding: 0;
+    margin:0;
+}
+.fonc-icon{
+    color: #7e7e7e;
+    margin-right: 2em
+}
+.fonc-placement{
+    display:flex;
+    padding: 1.5em;
+    margin-top:1em ;
+    margin-right:0 ;
+    margin-bottom: 1;
+    margin-left:.5 ;
+    border-radius: 1.5em;
+    background-color: #f6f6f6;
+}
