@@ -184,15 +184,77 @@ a{
 /*__________________________________________________*/
 /*_______________________ Palette du gout_______________*/
 .fond-image{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+        max-height: 200px;
+        width: 100%;
+        object-fit: cover;
+        
 }
+    
+    
 .menu{
-    background-color: #f6f6f6;
+        background-color: #f6f6f6;
+        border-radius: 3em 3em 0 0;
+        padding-top: 1em;
+        
+       
+        
+}
+
+.titre-plat{
+        margin-left: 1em;
+        margin-bottom: .5em;
+        border-bottom:3px solid #99E2D0;
+        width: 5em;
+
 }
 
 .titre-logo{
-    font-family: Shrikhand, sans-serif;
-    margin: 1em;
+        font-family: Shrikhand, sans-serif;
+        margin: 1em;
+}
+    
+.description-menu{
+        margin-left: 1em;
+        margin-right: 2em;
+        margin-bottom: 2em;
+        background-color: white;
+        padding-bottom: 1em;
+        border-radius: 1.5em;
+        box-shadow: 2px 2px 9px #e9e9e9;
+        
+}
+
+.descritpion-menu-titre, .description-sous-menu{
+        margin-left: 1em; 
+        
+}
+
+.prix{
+        font-weight: bold;
+        float: right;
+        margin-right: 1em;
+        
+}
+
+.descritpion-menu-titre{
+       padding-top: .3em;
+}
+
+.bloc-bouton{
+        text-align: center;
+        padding-bottom: 3em;
+        padding-top: 1em;
+}
+
+.bouton-commander{
+        border-radius: 4em;
+        background-color: #FF79DA;
+        box-shadow: 2px 2px 9px #e9e9e9;
+        color:white;
+        font-weight: bold;
+        border:none;
+        padding:1em;
+        width:40%;
+        cursor:pointer
+
 }
