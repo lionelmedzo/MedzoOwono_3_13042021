@@ -7,6 +7,9 @@ header{
     box-shadow: 0 0 0 1em #cfcfcf;
     
 }
+.fa-arrow-left{
+    float: left;
+}
 .logo{
     font-family: Shrikhand, sans-serif;
     text-align: center;
@@ -183,9 +186,12 @@ a{
     padding-left:1em;
 }
 .fa-heart{
-    margin-left: 15em;
-    size:30px ;
+   float: right;
+   margin-right: 1em;
+   font-size: 30px;
+   
 }
+
 
 /*__________________________________________________*/
 /*_______________________ Palette du gout_______________*/
