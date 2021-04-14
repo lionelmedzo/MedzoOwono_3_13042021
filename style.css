@@ -180,3 +180,19 @@ a{
     margin-left: 15em;
     size:30px ;
 }
+
+/*__________________________________________________*/
+/*_______________________ Palette du gout_______________*/
+.fond-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.menu{
+    background-color: #f6f6f6;
+}
+
+.titre-logo{
+    font-family: Shrikhand, sans-serif;
+    margin: 1em;
+}
