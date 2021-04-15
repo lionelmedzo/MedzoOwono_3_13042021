@@ -189,8 +189,12 @@ a{
    float: right;
    margin-right: 1em;
    font-size: 30px;
+   font-weight: bold;
+   background-color: white;
    
 }
+
+
 
 
 /*__________________________________________________*/
@@ -200,13 +204,18 @@ a{
         width: 100%;
         object-fit: cover;
         
+        
 }
     
     
 .menu{
-        background-color: #f6f6f6;
-        border-radius: 3em 3em 0 0;
-        padding-top: 1em;
+    position: relative;
+    background-color: #f6f6f6;
+    border-radius: 3em 3em 0 0;
+    padding-top: 1em;
+    margin-top: -3em;
+        
+        
         
        
         
@@ -217,6 +226,7 @@ a{
         margin-bottom: .5em;
         border-bottom:3px solid #99E2D0;
         width: 5em;
+        
 
 }
 
@@ -243,19 +253,31 @@ a{
 
 .prix{
         font-weight: bold;
-        float: right;
+        padding-left: .5em;
         margin-right: 1em;
+        
         
 }
 
 .descritpion-menu-titre{
        padding-top: .3em;
+       
+}
+.description-sous-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .bloc-bouton{
         text-align: center;
         padding-bottom: 3em;
         padding-top: 1em;
+}
+.ecriture{
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
 }
 
 .bouton-commander{
