@@ -25,6 +25,10 @@ header{
     padding-bottom: 1em;
     padding-top: 1em;
 }
+.logo-bas-de-page{
+    margin-left: 2.5em;
+    font-family: Shrikhand, sans-serif;
+}
 
 li{
     list-style-type: none;
@@ -38,6 +42,7 @@ li{
 }
 .localisation-icon{
     margin-right: .5em;
+    
 }
 .footer-icon{
     color: white;
@@ -97,6 +102,13 @@ li{
     background-color: #f6f6f6;
     
 }
+.fonc-placement-color{
+    background-color:rgb(255,121,218,.1);
+  
+}
+.fa-store{
+    color:#9356DC;
+}
 /*__________________________________________________*/
 /*_______________________ restaurant_______________*/
 .restaurants{
@@ -149,37 +161,11 @@ a{
     color:#008766;
     padding: .5em;
     position: absolute;
-    top:51em;
     right: 2em;
+    margin-top: 1em;
     
 }
-.carte-popup2{
-    background-color: #99e2d0;
-    color:#008766;
-    padding: .5em;
-    position: absolute;
-    top:71em;
-    right: 2em;
-    
-}
-.carte-popup3{
-    background-color: #99e2d0;
-    color:#008766;
-    padding: .5em;
-    position: absolute;
-    top:91em;
-    right: 2em;
-    
-}
-.carte-popup4{
-    background-color: #99e2d0;
-    color:#008766;
-    padding: .5em;
-    position: absolute;
-    top:110em;
-    right: 2em;
-    
-}
+
 .carte-descritpion{
     
     padding-bottom: .5em;
@@ -188,11 +174,20 @@ a{
 .fa-heart{
    float: right;
    margin-right: 1em;
-   font-size: 30px;
-   font-weight: bold;
-   background-color: white;
-   
+   font-size: 30px;  
 }
+.fa-heart:hover{
+    font-weight:bold;
+    background:linear-gradient(to bottom,#9356DC,#FF79DA); 
+    transition: 300ms ease;
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;  
+}
+
 
 
 
