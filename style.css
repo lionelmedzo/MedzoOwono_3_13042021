@@ -102,7 +102,7 @@ li{
     background-color: #f6f6f6;
     
 }
-.fonc-placement-color{
+.fonc-placement:hover{
     background-color:rgb(255,121,218,.1);
   
 }
@@ -292,3 +292,79 @@ a{
     opacity: .9;
     box-shadow: 4px 4px 10px #808080;
 }
+
+/*__________________________________________________*/
+/*_______________________ Animation-caché_______________*/
+/*.animation-check{
+    padding: 1.7em;
+    position: absolute;  
+    background-color: #99e2d0;
+    border-radius: 0 1.5rem 1.5rem 0;
+    left: 100%;
+    top:9%;
+    
+    
+
+    
+}
+.animation-check:hover{
+    animation-direction: normal;
+}
+.fa-check-circle:hover { 
+    
+        font-size: 40px;
+        color :green;
+        
+        
+}*/
+
+/*__________________________________________________*/
+/*_______________________ attente chargement_______________*/
+.contenaire-loader{
+    z-index: 9997;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    visibility: hidden;
+    transition: visibility 3s;   
+}
+
+.loader{
+    z-index: 99998;
+    border-top: 10px solid #FF79DA ;
+    border-right: 10px solid #9356DC ;
+    border-bottom: 10px solid #99E2D0;
+    border-left: 10px solid #9356DC  ;
+    width: 40%;   
+    height: 40%;
+    border-radius: 100%;
+    
+    -webkit-animation:spin 2s linear infinite ;
+    -o-animation:spin 2s linear infinite ;
+    animation:spin 2s linear infinite ;
+    visibility: hidden;
+    transition: visibility 3s;
+
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+/* animation du loader*/
+@keyframes spin {
+    0%{
+        transform :rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
