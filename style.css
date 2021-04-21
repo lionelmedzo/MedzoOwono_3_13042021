@@ -214,7 +214,7 @@ a{
 
 
 /*__________________________________________________*/
-/*_______________________ Palette du gout_______________*/
+/*_______________________ LES DIFFERENTS MENU_______________*/
 .fond-image{
         max-height: 200px;
         width: 100%;
@@ -260,27 +260,143 @@ a{
     border-radius: 1.5em;
     box-shadow: 2px 2px 9px #e9e9e9;
 
-    -webkit-animation: glissement 1.5s .3s ease-out both,transform .3s;
-    animation: glissement 1.5s .3s ease-out both,transform .3s;
-    -o-transition: all 2s;
-    
-    -webkit-transition: all 2s;
-    transition: all 2s;
+    -webkit-animation: glissement .4s .3s ease-in both,transform .3s;
+    animation: glissement .4s .3s ease-in both,transform .3s;
+   
 
         
         
 }
+.description-menu2{
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding-bottom: 1em;
+    border-radius: 1.5em;
+    box-shadow: 2px 2px 9px #e9e9e9;
+
+    -webkit-animation: glissement .6s .3s ease-in both,transform .3s;
+    animation: glissement .6s .3s ease-in both,transform .3s;
+    
+        
+        
+}
+.description-menu3{
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding-bottom: 1em;
+    border-radius: 1.5em;
+    box-shadow: 2px 2px 9px #e9e9e9;
+    -webkit-animation: glissement .8s .3s ease-in both,transform .3s;
+    animation: glissement .8s .3s ease-in both,transform .3s;      
+}
+.description-menu4{
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding-bottom: 1em;
+    border-radius: 1.5em;
+    box-shadow: 2px 2px 9px #e9e9e9;
+    -webkit-animation: glissement 1s .3s ease-in both,transform .3s;
+    animation: glissement 1s .3s ease-in both,transform .3s;      
+}
+.description-menu5{
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding-bottom: 1em;
+    border-radius: 1.5em;
+    box-shadow: 2px 2px 9px #e9e9e9;
+    -webkit-animation: glissement 1.2s .3s ease-in both,transform .3s;
+    animation: glissement 1.2s .3s ease-in both,transform .3s;      
+}
+.description-menu6{
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding-bottom: 1em;
+    border-radius: 1.5em;
+    box-shadow: 2px 2px 9px #e9e9e9;
+    -webkit-animation: glissement 1.4s .3s ease-in both,transform .3s;
+    animation: glissement 1.4s .3s ease-in both,transform .3s;      
+}
+.description-menu7{
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding-bottom: 1em;
+    border-radius: 1.5em;
+    box-shadow: 2px 2px 9px #e9e9e9;
+    -webkit-animation: glissement 1.6s .3s ease-in both,transform .3s;
+    animation: glissement 1.6s .3s ease-in both,transform .3s;      
+}
+.description-menu8{
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding-bottom: 1em;
+    border-radius: 1.5em;
+    box-shadow: 2px 2px 9px #e9e9e9;
+    -webkit-animation: glissement 1.8s .3s ease-in both,transform .3s;
+    animation: glissement 1.8s .3s ease-in both,transform .3s;      
+}
+
+.description-menu9{
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding-bottom: 1em;
+    border-radius: 1.5em;
+    box-shadow: 2px 2px 9px #e9e9e9;
+    -webkit-animation: glissement 2s .3s ease-in both,transform .3s;
+    animation: glissement 2s .3s ease-in both,transform .3s;      
+}
+
+.description-menu10{
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding-bottom: 1em;
+    border-radius: 1.5em;
+    box-shadow: 2px 2px 9px #e9e9e9;
+    -webkit-animation: glissement 2.2s .3s ease-in both,transform .3s;
+    animation: glissement 2.2s .3s ease-in both,transform .3s;      
+}
+
+
+
+        
+        
+
 @keyframes glissement {
     0%{ 
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
         opacity: 0;
 
     }
+    75%{ 
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        opacity: 0;
+
+    }
+
     100%{
         -webkit-transform: translateY(0);
         transform: translateY(0);
         opacity: 1;
+        
 
     }
     
