@@ -222,6 +222,7 @@ body{
             
             
     }
+
         
         
     .menu{
@@ -252,6 +253,7 @@ body{
     }
         
     .description-menu{
+        cursor: pointer;
         margin-left: 1em;
         margin-right: 2em;
         margin-bottom: 2em;
@@ -269,6 +271,7 @@ body{
             
     }
     .description-menu2{
+        cursor: pointer;
         margin-left: 1em;
         margin-right: 2em;
         margin-bottom: 2em;
@@ -284,6 +287,7 @@ body{
             
     }
     .description-menu3{
+        cursor: pointer;
         margin-left: 1em;
         margin-right: 2em;
         margin-bottom: 2em;
@@ -295,6 +299,7 @@ body{
         animation: glissement 1.5s .3s ease-in both,transform .3s;      
     }
     .description-menu4{
+        cursor: pointer;
         margin-left: 1em;
         margin-right: 2em;
         margin-bottom: 2em;
@@ -306,6 +311,7 @@ body{
         animation: glissement 2s .3s ease-in both,transform .3s;      
     }
     .description-menu5{
+        cursor: pointer;
         margin-left: 1em;
         margin-right: 2em;
         margin-bottom: 2em;
@@ -317,6 +323,7 @@ body{
         animation: glissement 2.5s .3s ease-in both,transform .3s;      
     }
     .description-menu6{
+        cursor: pointer;
         margin-left: 1em;
         margin-right: 2em;
         margin-bottom: 2em;
@@ -328,6 +335,7 @@ body{
         animation: glissement 3s .3s ease-in both,transform .3s;      
     }
     .description-menu7{
+        cursor: pointer;
         margin-left: 1em;
         margin-right: 2em;
         margin-bottom: 2em;
@@ -339,6 +347,7 @@ body{
         animation: glissement 3.5s .3s ease-in both,transform .3s;      
     }
     .description-menu8{
+        cursor: pointer;
         margin-left: 1em;
         margin-right: 2em;
         margin-bottom: 2em;
@@ -351,6 +360,7 @@ body{
     }
     
     .description-menu9{
+        cursor: pointer;
         margin-left: 1em;
         margin-right: 2em;
         margin-bottom: 2em;
@@ -363,6 +373,7 @@ body{
     }
     
     .description-menu10{
+        cursor:pointer;
         margin-left: 1em;
         margin-right: 2em;
         margin-bottom: 2em;
@@ -405,7 +416,9 @@ body{
     
     .descritpion-menu-titre, .description-sous-menu{
             margin-left: 1em; 
-            
+            white-space: nowrap;
+            text-overflow:ellipsis;
+            overflow: hidden;
     }
     
     .prix{
@@ -482,10 +495,24 @@ body{
 .fa-check-circle { 
         
     font-size: 40px;
-    
     color:white ;
+    transform: rotate(0deg);
+    transition-duration: .5s;
 
 }
+.description-menu:hover  .fa-check-circle,
+.description-menu2:hover  .fa-check-circle,
+.description-menu3:hover  .fa-check-circle,
+.description-menu4:hover  .fa-check-circle,
+.description-menu5:hover  .fa-check-circle,
+.description-menu6:hover  .fa-check-circle,
+.description-menu7:hover  .fa-check-circle,
+.description-menu8:hover  .fa-check-circle,
+.description-menu9:hover  .fa-check-circle,
+.description-menu10:hover  .fa-check-circle{
+    transform : rotate(-360deg);
+}
+
 .description-menu:hover > .animation-check,
 .description-menu2:hover > .animation-check,
 .description-menu3:hover > .animation-check,
@@ -495,13 +522,12 @@ body{
 .description-menu7:hover > .animation-check,
 .description-menu8:hover > .animation-check,
 .description-menu9:hover > .animation-check,
-.description-menu10:hover > .animation-check{
-
-    
+.description-menu10:hover > .animation-check{ 
     opacity:1;
     transform: translateX(-92px);
     
 }
+
 .description-menu:hover .prix,
 .description-menu2:hover .prix,
 .description-menu3:hover .prix,
