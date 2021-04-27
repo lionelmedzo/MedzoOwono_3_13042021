@@ -1,7 +1,18 @@
 @media (min-width: 700px){
+    .loader{
+        
+        
+       
+        width: 55%;   
+        height: 40%;
+       
+    }
+    
+    
     .footer-list li{
         display: inline;
-        padding-right: 15%;   
+        margin-right: 3em;
+          
     }
     .titre{
         text-align: center;
@@ -15,17 +26,7 @@
         
     }
     .fonc-placement::before{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         position: relative;
-        counter-increment: compteListe 1;
-        content: counter(compteListe) " ";
-        background: #9356dc;
-        color: white;
-        height: 1.5em;
-        width: 1.5em;
-        border-radius: 100%;
         left: -15%;
     }
 
@@ -60,5 +61,13 @@
         background-color: white;
         border-radius: 1em;
     }
-
+    .carte-popup {
+        position: relative;
+        float:right;
+        bottom: 200px;
+        
+        
+        
+        
+    }
 }

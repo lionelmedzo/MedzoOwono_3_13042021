@@ -606,6 +606,7 @@ body{
         background-color: #f3f3f3;
         -webkit-animation: 3s ease 0s normal forwards 1 fondu;
         animation: 3s ease 0s normal forwards 1 fondu;
+        
     }
     @keyframes fondu { 
         0% {opacity:1; }
