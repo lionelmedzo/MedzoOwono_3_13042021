@@ -1,0 +1,64 @@
+@media (min-width: 700px){
+    .footer-list li{
+        display: inline;
+        padding-right: 15%;   
+    }
+    .titre{
+        text-align: center;
+    }
+    .fonc-list{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        
+    }
+    .fonc-placement::before{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        counter-increment: compteListe 1;
+        content: counter(compteListe) " ";
+        background: #9356dc;
+        color: white;
+        height: 1.5em;
+        width: 1.5em;
+        border-radius: 100%;
+        left: -15%;
+    }
+
+    .restaurants-cartes{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 1.5em;
+        row-gap: 1.5em;
+    }
+    .carte1{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        background-color: white;
+        border-radius: 1em;
+    }
+    .carte-2{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        background-color: white;
+        border-radius: 1em;
+    }
+    .carte-3{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        background-color: white;
+        border-radius: 1em;
+    }
+    .carte-4{
+        grid-column-start: 2;
+        grid-row-start: 2;
+        background-color: white;
+        border-radius: 1em;
+    }
+
+}
