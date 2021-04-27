@@ -105,6 +105,24 @@ body{
     .fonc-list{
         padding: 0;
         margin:0;
+        list-style: none;
+    counter-reset: compteListe;
+    }
+    .fonc-placement::before{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    counter-increment: compteListe 1;
+    content: counter(compteListe) " ";
+    background: #9356dc;
+    color: white;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 100%;
+    left: 5%;
+    
+    
     }
     .fonc-icon{
         color: #7e7e7e;
@@ -251,6 +269,8 @@ body{
             font-family: Shrikhand, sans-serif;
             margin: 1em;
     }
+
+
         
     .description-menu{
         cursor: pointer;
@@ -266,8 +286,7 @@ body{
         -webkit-animation: glissement .5s .3s ease-in both,transform .3s;
         animation: glissement .5s .3s ease-in both,transform .3s;
        
-    
-            
+          
             
     }
     .description-menu2{
@@ -416,9 +435,7 @@ body{
     
     .descritpion-menu-titre, .description-sous-menu{
             margin-left: 1em; 
-            white-space: nowrap;
-            text-overflow:ellipsis;
-            overflow: hidden;
+            
     }
     
     .prix{
@@ -449,7 +466,8 @@ body{
             padding-bottom: 3em;
             padding-top: 1em;
     }
-    .ecriture{
+    .ecriture,
+    .descritpion-menu-titre h3{
         white-space: nowrap;
         text-overflow:ellipsis;
         overflow: hidden;
@@ -511,6 +529,33 @@ body{
 .description-menu9:hover  .fa-check-circle,
 .description-menu10:hover  .fa-check-circle{
     transform : rotate(-360deg);
+}
+.description-menu:hover  .ecriture,
+.description-menu2:hover  .ecriture,
+.description-menu3:hover  .ecriture,
+.description-menu4:hover  .ecriture,
+.description-menu5:hover  .ecriture,
+.description-menu6:hover  .ecriture,
+.description-menu7:hover  .ecriture,
+.description-menu8:hover  .ecriture,
+.description-menu9:hover  .ecriture,
+.description-menu10:hover .ecriture{
+    margin-right: 30%;
+}
+
+.description-menu:hover   h3,
+.description-menu2:hover  h3,
+.description-menu3:hover  h3,
+.description-menu4:hover  h3,
+.description-menu5:hover  h3,
+.description-menu6:hover  h3,
+.description-menu7:hover  h3,
+.description-menu8:hover  h3,
+.description-menu9:hover  h3,
+.description-menu10:hover  h3{
+    margin-right: 30%;
+    
+   
 }
 
 .description-menu:hover > .animation-check,
