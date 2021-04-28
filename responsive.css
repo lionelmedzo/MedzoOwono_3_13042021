@@ -70,4 +70,50 @@
         
         
     }
+    /*_________________ LES MENUS________________*/
+    
+    .titre-logo{
+        text-align: center;
+        
+    }
+    .icon-heart{
+        float:none;
+        margin-left: 5em;
+         
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+        grid-template-rows: 1fr 1fr ;
+        row-gap: 5.5em;
+        
+    }
+    
+    
+    .entrees{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        
+    }
+    .plats{
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+    .desserts{
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    .description-menu,
+    .description-menu2,
+    .description-menu3,
+    .description-menu4,
+    .description-menu5,
+    .description-menu6,
+    .description-menu7,
+    .description-menu8,
+    .description-menu9,
+    .description-menu10{
+        width: 80%;
+    }
 }

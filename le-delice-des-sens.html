@@ -8,6 +8,7 @@
         <script src="https://kit.fontawesome.com/384df6feb6.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Shrikhand&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="responsive.css"/>
         <title>Le délice des sens</title>
     </head>
     <body>
@@ -15,130 +16,137 @@
             <h1 class="logo"><a href ="index.html"><i class="fas fa-arrow-left"></i></a>ohmyfood</h1>
         </header>
         <div class="img">
-            <img class="fond-image" src ="restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"/>
+            <img class="fond-image" src ="restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Assiete de poisson et poivron rouge"/>
         </div>
         <section class="menu">
             <div class ="menu-titre">
-                <h2 class="titre-logo">Le délice des sens <i class="far fa-heart "></i></h2>
+                <h2 class="titre-logo">Le délice des sens <i class="far fa-heart icon-heart "></i></h2>
             </div>
             
+            <div class="grid">
+                <div class="entrees">
+                    <div class="titre-plat">ENTREES</div>
+                    <div class="description-menu">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Tartare de thon</h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Assaisonné au yuzu</span>
+                            <div class="prix">25€</div>
+                        </div>
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>    
+                    </div>
 
-                <div class="titre-plat">ENTREES</div>
-                <div class="description-menu">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Tartare de thon</h3>
+                    <div class="description-menu2">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Bouchée de homard croustillant</h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Et sa farandole de petits légumes</span>
+                            <div class="prix">35€</div>
+                        </div> 
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>   
                     </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Assaisonné au yuzu</span>
-                        <div class="prix">25€</div>
+                    <div class="description-menu3">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Velouté de cèpes</h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Aux truffes</span>
+                            <div class="prix">20€</div>
+                        </div>
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>    
                     </div>
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>    
-                </div>
-
-                <div class="description-menu2">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Bouchée de homard croustillant</h3>
-                    </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Et sa farandole de petits légumes</span>
-                        <div class="prix">35€</div>
-                    </div> 
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>   
-                </div>
-                <div class="description-menu3">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Velouté de cèpes</h3>
-                    </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Aux truffes</span>
-                        <div class="prix">20€</div>
-                    </div>
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>    
-                </div>
-
-                <div class="titre-plat">PLATS</div>
-                <div class="description-menu4">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Poulet rôti aux herbes de Provence</h3>
-                    </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Et sa crème de truffe</span>
-                        <div class="prix">40€</div>
-                    </div>
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>    
                 </div>
 
-                <div class="description-menu5">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Langouste rôtie </h3>
+                <div class="plats">
+                    <div class="titre-plat">PLATS</div>
+                    <div class="description-menu4">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Poulet rôti aux herbes de Provence</h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Et sa crème de truffe</span>
+                            <div class="prix">40€</div>
+                        </div>
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>    
                     </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Et ses légumes de saison</span>
-                        <div class="prix">35€</div>
+
+                    <div class="description-menu5">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Langouste rôtie </h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Et ses légumes de saison</span>
+                            <div class="prix">35€</div>
+                        </div>
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>    
                     </div>
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>    
-                </div>
-                <div class="description-menu6">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Côte de boeuf Angus </h3>
+                    <div class="description-menu6">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Côte de boeuf Angus </h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Et sa purée de panais</span>
+                            <div class="prix">44€</div>
+                        </div> 
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>   
                     </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Et sa purée de panais</span>
-                        <div class="prix">44€</div>
-                    </div> 
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>   
                 </div>
 
-                <div class="titre-plat">DESSERTS</div>
-                <div class="description-menu7">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Farandole de desserts</h3>
+                <div class="desserts">
+                    <div class="titre-plat">DESSERTS</div>
+                    <div class="description-menu7">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Farandole de desserts</h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Du chef</span>
+                            <div class="prix">18€</div>
+                        </div>
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>    
                     </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Du chef</span>
-                        <div class="prix">18€</div>
-                    </div>
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>    
-                </div>
 
-                <div class="description-menu8">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Crème brulée </h3>
+                    <div class="description-menu8">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Crème brulée </h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Revisitée</span>
+                            <div class="prix">22€</div>
+                        </div> 
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>   
                     </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Revisitée</span>
-                        <div class="prix">22€</div>
-                    </div> 
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>   
-                </div>
-                <div class="description-menu9">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Tiramisu </h3>
+                    <div class="description-menu9">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Tiramisu </h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">À la noisette</span>
+                            <div class="prix">23€</div>
+                        </div>
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>    
                     </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">À la noisette</span>
-                        <div class="prix">23€</div>
-                    </div>
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>    
-                </div>
+                </div>  
+            </div>
             
             <div class="bloc-bouton">
                 <button class="bouton-commander">Commander</button>

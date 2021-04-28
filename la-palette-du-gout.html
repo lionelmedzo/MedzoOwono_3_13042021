@@ -8,6 +8,7 @@
         <script src="https://kit.fontawesome.com/384df6feb6.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Shrikhand&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="responsive.css"/>
         <title>La Palette du goût</title>
     </head>
     <body>
@@ -16,131 +17,137 @@
             <h1 class="logo"><a href ="index.html"><i class="fas fa-arrow-left"></i></a>ohmyfood</h1>
         </header>
         <div class="img">
-            <img class="fond-image" src ="restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"/>
+            <img class="fond-image" src ="restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"alt ="Premier menu gastronomique"/>
         </div>
         <section class="menu">
             <div class ="menu-titre">
-                <h2 class="titre-logo">La Palette du gôut <i class="far fa-heart "></i></h2>
+                <h2 class="titre-logo">La Palette du gôut <i class="far fa-heart icon-heart "></i></h2>
             </div>
             
+            <div class="grid">
+                <div class="entrees">
+                    <div class="titre-plat">ENTREES</div>
+                    <div class="description-menu">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Fricassée d'escargot</h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Au piment d'espelette</span>
+                            <div class="prix">25€</div>
+                            
+                        </div>
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>  
+                    </div>
 
-                <div class="titre-plat">ENTREES</div>
-                <div class="description-menu">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Fricassée d'escargot</h3>
+                    <div class="description-menu2">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Foie gras de canar mi-cuit</h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Et ses copeaux de truffe noire</span>
+                            <div class="prix">35€</div>
+                        </div> 
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>   
                     </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Au piment d'espelette</span>
-                        <div class="prix">25€</div>
-                        
+                    <div class="description-menu3">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Oeuf au plat</h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Assaisonné à la truffe sur lit de caviar</span>
+                            <div class="prix">20€</div>
+                        </div>
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>    
                     </div>
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>  
                 </div>
+                <div class="plats">
+                    <div class="titre-plat">PLATS</div>
+                    <div class="description-menu4">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Filet de boeuf aux herbes</h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Accompagné de sa ribambelle de légumes</span>
+                            <div class="prix">40€</div>
+                        </div>
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>    
+                    </div>
 
-                <div class="description-menu2">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Foie gras de canar mi-cuit</h3>
+                    <div class="description-menu5">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Parmentier de queue de boeuf</h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">À la truffe noire sur sa purée de panais</span>
+                            <div class="prix">35€</div>
+                        </div>
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>    
                     </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Et ses copeaux de truffe noire</span>
-                        <div class="prix">35€</div>
-                    </div> 
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>   
-                </div>
-                <div class="description-menu3">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Oeuf au plat</h3>
+                    <div class="description-menu6">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Filet de turbot</h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Aux agrumes</span>
+                            <div class="prix">44€</div>
+                        </div> 
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>   
                     </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Assaisonné à la truffe sur lit de caviar</span>
-                        <div class="prix">20€</div>
-                    </div>
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>    
-                </div>
-
-                <div class="titre-plat">PLATS</div>
-                <div class="description-menu4">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Filet de boeuf aux herbes</h3>
-                    </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Accompagné de sa ribambelle de légumes</span>
-                        <div class="prix">40€</div>
-                    </div>
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>    
-                </div>
-
-                <div class="description-menu5">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Parmentier de queue de boeuf</h3>
-                    </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">À la truffe noire sur sa purée de panais</span>
-                        <div class="prix">35€</div>
-                    </div>
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>    
-                </div>
-                <div class="description-menu6">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Filet de turbot</h3>
-                    </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Aux agrumes</span>
-                        <div class="prix">44€</div>
-                    </div> 
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>   
-                </div>
-
-                <div class="titre-plat">DESSERTS</div>
-                <div class="description-menu7">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Paris-Brest</h3>
-                    </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Revisité</span>
-                        <div class="prix">18€</div>
-                    </div>
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>   
                 </div>
 
-                <div class="description-menu8">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Macaron au chocolat d'exception</h3>
+                <div class="desserts">
+                    <div class="titre-plat">DESSERTS</div>
+                    <div class="description-menu7">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Paris-Brest</h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Revisité</span>
+                            <div class="prix">18€</div>
+                        </div>
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>   
                     </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Et glace à la vanille de Madagascar</span>
-                        <div class="prix">22€</div>
+
+                    <div class="description-menu8">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Macaron au chocolat d'exception</h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Et glace à la vanille de Madagascar</span>
+                            <div class="prix">22€</div>
+                        </div>
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>    
                     </div>
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>    
-                </div>
-                <div class="description-menu9">
-                    <div class=" descritpion-menu-titre">
-                        <h3>Mousse au chocolat </h3>
+                    <div class="description-menu9">
+                        <div class=" descritpion-menu-titre">
+                            <h3>Mousse au chocolat </h3>
+                        </div>
+                        <div class="description-sous-menu">
+                            <span class="ecriture">Au piment d'Espelette et à la truffe noire</span>
+                            <div class="prix">23€</div>
+                        </div>
+                        <div class="animation-check">
+                            <i class="far fa-check-circle "aria-hidden="true"></i>
+                        </div>    
                     </div>
-                    <div class="description-sous-menu">
-                        <span class="ecriture">Au piment d'Espelette et à la truffe noire</span>
-                        <div class="prix">23€</div>
-                    </div>
-                    <div class="animation-check">
-                        <i class="far fa-check-circle "aria-hidden="true"></i>
-                    </div>    
-                </div>
+                </div>  
+            </div>
             
             <div class="bloc-bouton">
                 <button class="bouton-commander">Commander</button>
