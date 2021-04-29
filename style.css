@@ -571,8 +571,8 @@ a{
     border-right: 20px solid #9356DC ;
     border-bottom: 20px solid #99E2D0;
     border-left: 20px solid #9356DC  ;
-    width: 70%;   
-    height: 40%;
+    width: 300px;   
+    height: 300px;
     border-radius: 100%;
         
     -webkit-animation:spin 2s linear infinite ;
