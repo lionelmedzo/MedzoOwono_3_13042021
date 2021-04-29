@@ -30,32 +30,32 @@
         left: -15%;
     }
 
-    .restaurants-cartes{
+    #restaurants-cartes{
         display:grid;
         grid-template-columns:1fr 1fr;
         grid-template-rows: 1fr 1fr;
         column-gap: 1.5em;
         row-gap: 1.5em;
     }
-    .carte1{
+    #carte1{
         grid-column-start: 1;
         grid-row-start: 1;
         background-color: white;
         border-radius: 1em;
     }
-    .carte-2{
+    #carte-2{
         grid-column-start: 2;
         grid-row-start: 1;
         background-color: white;
         border-radius: 1em;
     }
-    .carte-3{
+    #carte-3{
         grid-column-start: 1;
         grid-row-start: 2;
         background-color: white;
         border-radius: 1em;
     }
-    .carte-4{
+    #carte-4{
         grid-column-start: 2;
         grid-row-start: 2;
         background-color: white;
