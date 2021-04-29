@@ -440,7 +440,7 @@ a{
     width:40%;
     cursor:pointer;
 }
-.bouton-commander:hover, .btn:hover{
+.bouton-commander:hover, #btn:hover{
     opacity: .9;
     box-shadow: 4px 4px 10px #808080;
 }
