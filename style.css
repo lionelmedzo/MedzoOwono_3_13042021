@@ -4,18 +4,18 @@ body{
     font-family: Roboto, sans-serif;
     }
 #main{
-     z-index:1;
+     z-index:1; /*inutile*/
     opacity: 0;
-    -webkit-animation: 3s ease 0s normal forwards 1 apparation;
-    animation: 3s ease 0s normal forwards 1 apparation;
+    -webkit-animation: 3s ease 0s normal forwards 1 apparition;
+    animation: 3s ease 0s normal forwards 1 apparition;
 }
-@keyframes apparation { 
+@keyframes apparition { 
     0% {opacity:0; }
     66% { opacity:0; }
     100% { opacity:1; 
             }
 }
-@-webkit-keyframes apparation{
+@-webkit-keyframes apparition{
     0% {opacity:0; }
     66% { opacity:0; }
     100% { opacity:1; 
@@ -257,8 +257,8 @@ a{
     border-radius: 1.5em;
     box-shadow: 2px 2px 9px #e9e9e9;
     
-    -webkit-animation: glissement .5s .3s ease-in both,transform .3s;
-    animation: glissement .5s .3s ease-in both,transform .3s;
+    -webkit-animation: glissement .5s .3s ease-in both,transform .3s;       /*,transform .3s à enlever */
+    animation: glissement .5s .3s ease-in both,transform .3s;               /*,transform .3s à enlever */
 }
 .description-menu2{
     cursor: pointer;
@@ -294,7 +294,7 @@ a{
     padding-bottom: 1em;
     border-radius: 1.5em;
     box-shadow: 2px 2px 9px #e9e9e9;
-    -webkit-animation: glissement 22s .3s ease-in both,transform .3s;
+    -webkit-animation: glissement 22s .3s ease-in both,transform .3s;  /* erreur c'est 2s et non 22s*/
     animation: glissement 2s .3s ease-in both,transform .3s;      
 }
 .description-menu5{
@@ -542,7 +542,7 @@ a{
     /*_______________________ attente chargement_______________*/
     
 #contenaire-loader{
-    z-index: 9999;
+    z-index: 9999; /*inutile*/
     height: 100%;
     width: 100%;
     position: fixed;
