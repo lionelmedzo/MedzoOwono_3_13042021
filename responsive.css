@@ -116,4 +116,20 @@
     .description-menu10{
         width: 80%;
     }
+    
+}
+@media (min-width: 800px){
+    .description-menu:hover .prix,
+    .description-menu2:hover .prix,
+    .description-menu3:hover .prix,
+    .description-menu4:hover .prix,
+    .description-menu5:hover .prix,
+    .description-menu6:hover .prix,
+    .description-menu7:hover .prix,
+    .description-menu8:hover .prix,
+    .description-menu9:hover .prix,
+    .description-menu10:hover .prix{
+   
+        transform: translateX(-200px);
+    }   
 }
