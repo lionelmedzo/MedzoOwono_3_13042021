@@ -4,7 +4,7 @@ body{
     font-family: Roboto, sans-serif;
     }
 main{
-     z-index:1; /*inutile*/
+     
     opacity: 0;
     -webkit-animation: 3s ease 0s normal forwards 1 apparition;
     animation: 3s ease 0s normal forwards 1 apparition;
@@ -248,7 +248,7 @@ a{
      margin: 1em;
 }
 .description-menu{
-    
+    overflow: hidden;
     cursor: pointer;
     margin-left: 1em;
     margin-right: 2em;
@@ -262,6 +262,7 @@ a{
     animation: glissement .5s .3s ease-in both;               /*,transform .3s à enlever */
 }
 .description-menu2{
+    overflow: hidden;
     cursor: pointer;
     margin-left: 1em;
     margin-right: 2em;
@@ -275,6 +276,7 @@ a{
     animation: glissement 1s .3s ease-in both;        
 }
 .description-menu3{
+    overflow: hidden;
     cursor: pointer;
     margin-left: 1em;
     margin-right: 2em;
@@ -287,6 +289,7 @@ a{
     animation: glissement 1.5s .3s ease-in both;      
 }
 .description-menu4{
+    overflow: hidden;
     cursor: pointer;
     margin-left: 1em;
     margin-right: 2em;
@@ -299,6 +302,7 @@ a{
     animation: glissement 2s .3s ease-in both;      
 }
 .description-menu5{
+    overflow: hidden;
     cursor: pointer;
     margin-left: 1em;
     margin-right: 2em;
@@ -311,6 +315,7 @@ a{
     animation: glissement 2.5s .3s ease-in both;      
 }
 .description-menu6{
+    overflow: hidden;
     cursor: pointer;
     margin-left: 1em;
     margin-right: 2em;
@@ -323,6 +328,7 @@ a{
     animation: glissement 3s .3s ease-in both;      
 }
 .description-menu7{
+    overflow: hidden;
     cursor: pointer;
     margin-left: 1em;
     margin-right: 2em;
@@ -335,6 +341,7 @@ a{
     animation: glissement 3.5s .3s ease-in both;      
 }
 .description-menu8{
+    overflow: hidden;
     cursor: pointer;
     margin-left: 1em;
     margin-right: 2em;
@@ -348,6 +355,7 @@ a{
 }
     
 .description-menu9{
+    overflow: hidden;
     cursor: pointer;
     margin-left: 1em;
     margin-right: 2em;
@@ -361,6 +369,7 @@ a{
 }
     
 .description-menu10{
+    overflow: hidden;
     cursor:pointer;
     margin-left: 1em;
     margin-right: 2em;
@@ -558,7 +567,7 @@ a{
     /*_______________________ attente chargement_______________*/
     
 #contenaire-loader{
-    z-index: 9999; /*inutile*/
+    
     height: 100%;
     width: 100%;
     position: fixed;

@@ -132,4 +132,22 @@
    
         transform: translateX(-200px);
     }   
+    .description-menu:hover > .animation-check,
+    .description-menu2:hover > .animation-check,
+    .description-menu3:hover > .animation-check,
+    .description-menu4:hover > .animation-check,
+    .description-menu5:hover > .animation-check,
+    .description-menu6:hover > .animation-check,
+    .description-menu7:hover > .animation-check,
+    .description-menu8:hover > .animation-check,
+    .description-menu9:hover > .animation-check,
+    .description-menu10:hover > .animation-check{ 
+    
+    transform: translateX(-40px); 
+    
+     
+     
+    
+    
+}
 }
