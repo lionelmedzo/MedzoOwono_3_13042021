@@ -451,12 +451,14 @@ a{
 .animation-check{
     padding: 1.7em;
     height:41% ;
+    width: 10px;
     position: absolute; 
+    left: 80%;
     background-color: #99e2d0;
     border-radius: 0 1.5rem 1.5rem 0;
-    left: 100%;
+   
     top:3%;
-    opacity: 1; 
+    opacity: 0; 
     transition: transform 0.5s ease-in-out;
 	-moz-transition: -moz-transform 0.5s ease-in-out;
 	-o-transition: -o-transform 0.5s ease-in-out;
@@ -521,7 +523,8 @@ a{
 .description-menu9:hover > .animation-check,
 .description-menu10:hover > .animation-check{ 
     opacity:1;
-    transform: translateX(-92px);   
+    transform: translateX(-40px); 
+    width: auto;  
 }
 
 .description-menu:hover .prix,
@@ -537,6 +540,7 @@ a{
     position: relative;
     transform: translateX(-92px);
 }
+
    
     /*__________________________________________________*/
     /*_______________________ attente chargement_______________*/
